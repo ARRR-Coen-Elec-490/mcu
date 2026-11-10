@@ -37,6 +37,9 @@
 *.exe
 *.out
 *.app
+*.bin
+*.elf
+*.hex
 
 # Build directories
 build/
@@ -66,3 +69,19 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

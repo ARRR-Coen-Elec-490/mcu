@@ -1,0 +1,21 @@
+{
+    "name": "MCU Repository",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--privileged",
+        "-v", "/dev:/dev"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "platformio.platformio-ide",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.vscode-serial-monitor",
+                "pbkit.vscode-pbkit"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}

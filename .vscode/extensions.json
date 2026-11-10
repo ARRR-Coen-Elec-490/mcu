@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "platformio.platformio-ide",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.vscode-serial-monitor",
+        "pbkit.vscode-pbkit",
+        "SonarSource.sonarlint-vscode"
+    ]
+}
